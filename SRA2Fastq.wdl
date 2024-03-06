@@ -25,7 +25,7 @@ task SRAtoFastq {
     runtime {
         cpu: ncpu
         memory: "~{memory_gb} GB"
-        docker: "ncbi/sra-tools:latest"
+        docker: "sra-toolkit"
     }
 
     output {
