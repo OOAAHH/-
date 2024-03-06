@@ -13,3 +13,8 @@
 
 WDL基本元件有5个，分别是定义总流程的`workflow`、定义单个任务的`task`、运行任务的`call`、定义任务中命令的`command`以及输出`output`。
 ![图片](https://github.com/OOAAHH/The_Pure_Yang_Compendium/assets/19518905/9ac9c4ad-78c9-4986-ab28-c7ec59b21910)
+
+《SAM2Fastq》
+------------------------------------------
+实在是缺少必要的工具实现我这样特殊的需求，无奈自己写一个。优化空间蛮大的。
+<img width="1178" alt="截屏2024-03-06 23 35 54" src="https://github.com/OOAAHH/The_Pure_Yang_Compendium/assets/19518905/b420dbba-7266-40cb-ac76-bc2391579fcc">
