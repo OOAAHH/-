@@ -18,3 +18,10 @@ WDL基本元件有5个，分别是定义总流程的`workflow`、定义单个任
 ------------------------------------------
 实在是缺少必要的工具实现我这样特殊的需求，无奈自己写一个。优化空间蛮大的。
 <img width="1178" alt="截屏2024-03-06 23 35 54" src="https://github.com/OOAAHH/The_Pure_Yang_Compendium/assets/19518905/b420dbba-7266-40cb-ac76-bc2391579fcc">
+
+结果还行，就是python慢了些。
+![图片](https://github.com/OOAAHH/The_Pure_Yang_Compendium/assets/19518905/5a2ee751-1d90-4c2f-b592-8cc508b5ba40)
+
+虽然RG改变的原因不明确，但是至少符合预期。
+
+<img width="657" alt="截屏2024-03-07 13 29 00" src="https://github.com/OOAAHH/The_Pure_Yang_Compendium/assets/19518905/366c5ef6-617e-46a9-9f3e-ad3155ca365c">
