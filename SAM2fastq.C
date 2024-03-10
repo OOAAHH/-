@@ -6,24 +6,24 @@
 #define LINE_SIZE 4096
 #define TAG_SIZE 256
 
-// 函数：安全地提取特定标签的值
+// extract labesl
 bool extract_tag_value(char *line, const char *tagPrefix, char *tagValue) {
     char *start = strstr(line, tagPrefix);
-    if (!start) return false; // 标签不存在
-    start += strlen(tagPrefix); // 跳过标签前缀
+    if (!start) return false; 
+    start += strlen(tagPrefix); 
 
-    char *end = strchr(start, '\t'); // 查找标签值的结尾
-    if (!end) end = line + strlen(line); // 如果这是最后一个标签
+    char *end = strchr(start, '\t'); 
+    if (!end) end = line + strlen(line); 
 
     size_t len = end - start;
-    if (len >= TAG_SIZE) len = TAG_SIZE - 1; // 确保不会溢出
+    if (len >= TAG_SIZE) len = TAG_SIZE - 1; 
     strncpy(tagValue, start, len);
-    tagValue[len] = '\0'; // 确保字符串正确终结
+    tagValue[len] = '\0'; 
 
     return true;
 }
 
-// 主函数
+// main function
 int main(int argc, char *argv[]) {
     if (argc != 3) {
         fprintf(stderr, "Usage: %s <input SAM file> <output FASTQ file>\n", argv[0]);
